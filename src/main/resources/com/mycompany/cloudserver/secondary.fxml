@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cloudserver.SecondaryController">
+    <children>
+        <Label fx:id="userTextField" GridPane.rowIndex="1">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Label>
+      <Label text="File Cloud Server">
+         <font>
+            <Font name="Serif Bold" size="17.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToDownloadFile" prefHeight="33.0" prefWidth="231.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Download File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToCreateFile" prefHeight="32.0" prefWidth="232.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Create File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToRestoreFile" prefHeight="32.0" prefWidth="230.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Restore File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToDeleteFiles" prefHeight="33.0" prefWidth="231.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Delete File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToRenameFiles" prefHeight="32.0" prefWidth="232.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Rename File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToUpdateUser" prefHeight="33.0" prefWidth="233.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Update User Details" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToViewLogs" prefHeight="32.0" prefWidth="234.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="View Logs" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToShareFile" prefHeight="33.0" prefWidth="233.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Share File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToUploadFile" prefHeight="32.0" prefWidth="233.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Upload New File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToUserList" prefHeight="33.0" prefWidth="230.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="User List" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToCopyFile" prefHeight="32.0" prefWidth="236.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Copy File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonRefresh" mnemonicParsing="false" onAction="#switchToMoveFile" prefHeight="33.0" prefWidth="237.0" style="-fx-background-color: blue; -fx-cursor: hand;" text="Move File" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="17.0" />
+              </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+          </Button>
+          <Button fx:id="buttonSecondary" onAction="#switchToPrimary" prefHeight="32.0" prefWidth="242.0" style="-fx-background-color: red; -fx-cursor: hand;" text="Logout" textFill="WHITE">
+              <font>
+                  <Font name="System Bold" size="16.0" />
+              </font>
+          </Button>
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="0.0" />
+    </padding>
+</VBox>

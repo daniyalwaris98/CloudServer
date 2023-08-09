@@ -37,7 +37,7 @@
         <AnchorPane prefHeight="475.0" prefWidth="411.0">
             <children>
                 <Label layoutX="32.0" layoutY="66.0" text="Select File" />
-                <Spinner fx:id="spinner" layoutX="168.0" layoutY="61.0" prefHeight="25.0" prefWidth="216.0" />
+                <Spinner fx:id="spnFiles" layoutX="168.0" layoutY="61.0" prefHeight="25.0" prefWidth="216.0" />
                 <Button fx:id="buttonRegister" layoutX="208.0" layoutY="293.0" mnemonicParsing="false" onAction="#buttonRestoreHandler" style="-fx-background-color: blue; -fx-cursor: hand;" text="Restore File" textFill="WHITE">
                     <font>
                         <Font size="14.0" />

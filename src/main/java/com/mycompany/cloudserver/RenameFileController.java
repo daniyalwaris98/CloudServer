@@ -29,7 +29,7 @@ public class RenameFileController { // Class Declaration
     private User currentUser; // Declaring a private instance variable of the type User
     
     @FXML
-    private Button btnSecondary; // FXML Annotation for Secondary Button
+    private Button buttonSecondary; // FXML Annotation for Secondary Button
     
     @FXML
     private Label lblFileText; //FXML Annotation for Label
